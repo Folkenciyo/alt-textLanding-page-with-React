@@ -11,3 +11,50 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.links__collums{
+    margin: 1rem;
+    
+    align-items: center ;
+    justify-content: center;
+    color: #345c4d;
+}
+.navFooter{
+    background-color: #80e1bc;
+    border-right: 1px solid #2da879;
+    border-left: 1px solid #2da879;
+}
+.links{
+    font-family: fantasy;
+    align-items:center ;
+    justify-content: center;
+}
+.socialMedia{
+    background-color:#2da879;
+    font-family: fantasy;
+    align-items:center ;
+    justify-content: center;
+    color: #80e1bc;
+    border-radius: 10px;
+    border: 1px solid #345c4d;
+}
+.insta{
+    background-color: #80E1BC;
+    border-radius: 10px;
+    border: 1px solid #345c4d;
+}
+.linkedIn{
+   background-color: #80E1BC;
+   border-radius: 10px;
+    border: 1px solid #345c4d;
+}
+.facebook{
+    background-color: #80E1BC;
+    border-radius: 10px;
+    border: 1px solid #345c4d;
+}
+.twitter{
+    background-color: #80E1BC;
+    border-radius: 10px;
+    border: 1px solid #345c4d;
+}
