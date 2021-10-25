@@ -1,7 +1,5 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-
-
 .Nav {
     background: rgb(60,219,158);
     background: linear-gradient(180deg, rgba(60,219,158,1) 17%, rgba(222,233,229,1) 100%);    display: flex;
@@ -23,4 +21,51 @@
 .Nav__Item--Link:hover {
     color: #4d8a73;
     text-decoration: underline;
+
+.links__collums{
+    margin: 1rem;
+    
+    align-items: center ;
+    justify-content: center;
+    color: #345c4d;
+}
+.navFooter{
+    background: rgb(128,225,188);
+background: linear-gradient(0deg, rgba(128,225,188,1) 38%, rgba(222,233,229,1) 96%);
+    border-right: 1px solid #2da879;
+    border-left: 1px solid #2da879;
+}
+.links{
+    font-family: fantasy;
+    align-items:center ;
+    justify-content: center;
+}
+.socialMedia{
+    background-color:#2da879;
+    font-family: fantasy;
+    align-items:center ;
+    justify-content: center;
+    color: #80e1bc;
+    border-radius: 10px;
+    border: 1px solid #345c4d;
+}
+.insta{
+    background-color: #80E1BC;
+    border-radius: 10px;
+    border: 1px solid #345c4d;
+}
+.linkedIn{
+   background-color: #80E1BC;
+   border-radius: 10px;
+    border: 1px solid #345c4d;
+}
+.facebook{
+    background-color: #80E1BC;
+    border-radius: 10px;
+    border: 1px solid #345c4d;
+}
+.twitter{
+    background-color: #80E1BC;
+    border-radius: 10px;
+    border: 1px solid #345c4d;
 }
