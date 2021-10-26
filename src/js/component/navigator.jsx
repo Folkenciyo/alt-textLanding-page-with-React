@@ -14,7 +14,7 @@ const Navigator = () => {
 					onSelect={selectedKey => alert(`selected ${selectedKey}`)}>
 					<Col lg={1} className="my-auto">
 						<span className="Nav__Icon">
-							<i class="fas fa-home"></i>
+							<i className="fas fa-home"></i>
 						</span>
 					</Col>
 					<Col lg={1} className="my-auto">
