@@ -4,7 +4,7 @@ import Container from "react-bootstrap/Container";
 
 const Carrousel = () => {
 	return (
-		<div class="container-fluid">
+		<div className="container-fluid">
 			<Carousel fade>
 				<Carousel.Item>
 					<img
