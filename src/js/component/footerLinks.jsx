@@ -6,87 +6,164 @@ import Col from "react-bootstrap/Col";
 
 const FooterLinks = () => {
 	return (
-		<div className="flex navFooter">
+		<div className="flex footer">
 			<Container>
 				<Row>
 					<Col>
 						<div>
-							<Nav
+							<div
 								defaultActiveKey="/home"
 								className="flex-column links__collums">
-								<Nav.Link className="links" href="/home">
-									Home
-								</Nav.Link>
-								<Nav.Link className="links" eventKey="link-1">
-									La Casa de tu vida
-								</Nav.Link>
-								<Nav.Link className="links" eventKey="link-2">
-									El terreno de tus sueños
-								</Nav.Link>
-								<Nav.Link className="links" eventKey="link-3">
-									Naves industriales
-								</Nav.Link>
-							</Nav>
+								<div>
+									<a className="links" href="/home">
+										Home
+									</a>
+								</div>
+								<div>
+									<a
+										className="links"
+										href=""
+										eventKey="link-1">
+										La Casa de tu vida
+									</a>
+								</div>
+								<div>
+									<a
+										className="links"
+										href=""
+										eventKey="link-2">
+										El terreno de tus sueños
+									</a>
+								</div>
+								<div>
+									<a
+										className="links"
+										href=""
+										eventKey="link-3">
+										Naves industriales
+									</a>
+								</div>
+							</div>
 						</div>
 					</Col>
 					<Col>
 						<div>
-							<Nav
+							<div
 								defaultActiveKey="/home"
 								className="flex-column links__collums">
-								<Nav.Link className="links" eventKey="link-7">
-									Conoce nuestra historia
-								</Nav.Link>
-								<Nav.Link className="links" eventKey="link-4">
-									Mejor empresa 2051
-								</Nav.Link>
-								<Nav.Link className="links" eventKey="link-5">
-									Hogar dulce Hogar
-								</Nav.Link>
-								<Nav.Link className="links" eventKey="link-6">
-									Felpudo, la caca de tu suela
-								</Nav.Link>
-							</Nav>
+								<div>
+									<a
+										className="links"
+										href=""
+										eventKey="link-7">
+										Conoce nuestra historia
+									</a>
+								</div>
+								<div>
+									<a
+										className="links"
+										href=""
+										eventKey="link-4">
+										Mejor empresa 2051
+									</a>
+								</div>
+								<div>
+									<a
+										className="links"
+										href=""
+										eventKey="link-5">
+										Hogar dulce Hogar
+									</a>
+								</div>
+								<div>
+									<a
+										className="links"
+										href=""
+										eventKey="link-6">
+										Felpudo, la caca de tu suela
+									</a>
+								</div>
+							</div>
 						</div>
 					</Col>
 					<Col>
 						<div>
-							<Nav
+							<div
 								defaultActiveKey="/home"
 								className="flex-column links__collums">
-								<Nav.Link className="links" eventKey="link-8">
-									No se espia por la ventana
-								</Nav.Link>
-								<Nav.Link className="links" eventKey="link-9">
-									Regulación de las cortinas a exterior
-								</Nav.Link>
-								<Nav.Link className="links" eventKey="link-10">
-									Navidad, no excederse
-								</Nav.Link>
-								<Nav.Link className="links" eventKey="link-11">
-									Seguridad en vacaciones
-								</Nav.Link>
-							</Nav>
+								<div>
+									<a
+										className="links"
+										href=""
+										eventKey="link-8">
+										No se espia por la ventana
+									</a>
+								</div>
+								<div>
+									<a
+										className="links"
+										href=""
+										eventKey="link-9">
+										Regulación de las cortinas a exterior
+									</a>
+								</div>
+								<div>
+									<a
+										className="links"
+										href=""
+										eventKey="link-10">
+										Navidad, no excederse
+									</a>
+								</div>
+								<div>
+									<a
+										className="links"
+										href=""
+										eventKey="link-11">
+										Seguridad en vacaciones
+									</a>
+								</div>
+							</div>
 						</div>
 					</Col>
 					<Col>
 						<div>
-							<Nav
+							<div
 								defaultActiveKey="/home"
 								className="flex-column links__collums">
-								<Nav.Link className="links" eventKey="link-12">
-									Tejados y sus triangulaciones
-								</Nav.Link>
-								<Nav.Link className="links" eventKey="link-13">
-									Metros Cuadrados
-								</Nav.Link>
-								<Nav.Link className="links" eventKey="link-14">
-									Me gusta mi página bonita
-								</Nav.Link>
-								<Nav.Link className="links" eventKey="link-15">
-									Babyshark turuturututu
-								</Nav.Link>
-							</Nav>
+								<div>
+									<a
+										className="links"
+										href=""
+										eventKey="link-12">
+										Tejados y sus triangulaciones
+									</a>
+								</div>
+								<div>
+									<a
+										className="links"
+										href=""
+										eventKey="link-13">
+										Metros Cuadrados
+									</a>
+								</div>
+								<div>
+									<a
+										className="links"
+										href=""
+										eventKey="link-14">
+										Me gusta mi página bonita
+									</a>
+								</div>
+								<div>
+									<a
+										className="links"
+										href=""
+										eventKey="link-15">
+										Babyshark turuturututu
+									</a>
+								</div>
+							</div>
 						</div>
 					</Col>
 				</Row>
@@ -94,40 +171,30 @@ const FooterLinks = () => {
 			<div className="socialMedia">
 				<Container>
 					<Row>
-						<Nav className="justify-content-center">
-							<Nav.Item>
-								<Nav.Link
-									className="facebook"
-									href="www.facebook.com">
-									<i className="fab fa-facebook-square"></i>
-									Facebook
-								</Nav.Link>
-							</Nav.Item>
-							<Nav.Item>
-								<Nav.Link
-									className="twitter"
-									href="www.twitter.com">
-									<i className="fab fa-twitter-square"></i>
-									Twitter
-								</Nav.Link>
-							</Nav.Item>
-							<Nav.Item>
-								<Nav.Link
-									className="insta"
-									href="wwww.instagram.com">
-									<i className="fab fa-instagram"></i>
-									Instagram
-								</Nav.Link>
-							</Nav.Item>
-							<Nav.Item>
-								<Nav.Link
-									className="linkedIn"
-									href="www.linkedin.com">
-									<i className="fab fa-linkedin"></i>
-									LinkedIn
-								</Nav.Link>
-							</Nav.Item>
-						</Nav>
+						<Col>
+							<a className="facebook" href="www.facebook.com">
+								<i className="fab fa-facebook-square"></i>
+								Facebook
+							</a>
+						</Col>
+						<Col>
+							<a className="twitter" href="www.twitter.com">
+								<i className="fab fa-twitter-square"></i>
+								Twitter
+							</a>
+						</Col>
+						<Col>
+							<a className="insta" href="wwww.instagram.com">
+								<i className="fab fa-instagram"></i>
+								Instagram
+							</a>
+						</Col>
+						<Col>
+							<a className="linkedIn" href="www.linkedin.com">
+								<i className="fab fa-linkedin"></i>
+								LinkedIn
+							</a>
+						</Col>
 					</Row>
 				</Container>
 			</div>
