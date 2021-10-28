@@ -1,13 +1,15 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+.cardSample {
+    background: #2DA879;
+    display: flex;
+    flex-direction: row;
+    margin: 60px 60px;
+    border-width: 18rem;
+    border-color: black;
+    align-items: center;
+    padding : 3rem;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
 
-*/
+
