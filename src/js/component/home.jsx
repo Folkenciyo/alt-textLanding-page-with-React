@@ -1,8 +1,13 @@
 import React, { Fragment } from "react";
 import CardBody from "./bodyCard.jsx";
 
+import Carrousel from "./Carrousel.jsx";
+
+import Navigator from "./navigator.jsx";
+
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
+import FooterLinks from "./footerLinks.jsx";
 
 const CARD_NUMBER = 4;
 
@@ -41,9 +46,14 @@ const Home = () => {
 		//textContainer.push(<CardBody key={i.toString()} text={CARD_TEXT[i]} />);
 	}
 	return (
-		<Fragment>
-			<div className="cardSample">{cardsContainer}</div>
-		</Fragment>
+		<div className="text-center mt-5">
+			<Navigator />
+			<Carrousel />
+			<Fragment>
+				<div className="cardSample">{cardsContainer}</div>
+			</Fragment>
+			<FooterLinks />
+		</div>
 	);
 };
 
